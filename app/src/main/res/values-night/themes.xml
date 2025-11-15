@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.JustImagine" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary_d</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant_d</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary_d</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/colorSecondary_d</item>
+        <item name="colorSecondaryVariant">@color/colorSecondaryVariant_d</item>
+        <item name="colorOnSecondary">@color/colorOnSecondary_d</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/android_statusBarColor_d</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="Bubble"><item name="color">@color/bubbleBackground_d</item></style>
+
+</resources>

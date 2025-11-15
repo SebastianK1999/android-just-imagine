@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">        Just Imagine    </string>
+
+<!-- Interface -->
+    <!-- Menu -->
+        <string name="menu_play">       Zagraj          </string>
+        <string name="menu_how">        Jak grać        </string>
+        <string name="menu_packages">   Zestawy kart    </string>
+        <string name="menu_settings">   Ustawienia      </string>
+    <!-- Packages -->
+        <string name="packages_title">  Zestawy kart    </string>
+    <!-- How -->
+        <string name="how_intro_sectionName">   Co to za gra?   </string>
+        <string name="how_intro_text">          Gra została stwożona przez Sebastiana Kwaśniaka. \nGithub: https://github.com/SebastianK1999 \n\n Wszytkie ilustracje zostały stworzone przy użyciu sztucznej inteligencji \"Microsoft 365 Copilot\".\nPromp wykorzystany do uzyskania stylu we wszystkich ilustracjach to \"vector graphic, clean, no outline\".</string>
+        <string name="how_how_sectionName">     Jak grać?       </string>
+        <string name="how_how_text">            By zagrać zbierz grupę swoich znajomych. Każdy z graczy losuje losowe karty na ekranie i przesuwa je w kolejność odpowiadającą wymyślonej opwieści. Gracz opowiada każdemu zmyśloną opowieść inspirowaną skojarzeniami wywołanymmi przez ilustracje na wylosowanych kartach. Nie ma co ograniczać swojej wyobrazni przez dosłowne reprezentacje obiektów na kartach. \nKażdy kolejny gracz kontynuje opwowieśź kolejnego.</string>
+        <string name="how_app_sectionName">     O aplikacji     </string>
+        <string name="how_app_text">            W aplikacja istnieje możliwość dobierania możliwych do wylosowania kart. Paczki kart można włączać i wyłączać w całości lub konkretne w nich karty (możliwe że jszcze nie zaimplementowano). \n\nWersja: 2.xyz \n Ilustracje kart mogą byż dodawane, zminiane i usuwane.</string>
+    <!-- Settings -->
+    <!-- Game -->
+        <string name="game_recycled_draw">   Losuj   </string>
+        <string name="game_recycled_notEnoughCards">    Nie masz wystarczającej ilości kart w tali. Wybierz \"Zestawy kart\" w menu głównym i wybierz więcej zetawów     </string>
+
+<!-- Card packages -->
+<string name="pack_test_0">   Podstawowa paczka    </string>
+<string name="pack_test_1">   testy jeden   </string>
+<string name="pack_test_2">   testy dwa     </string>
+
+
+</resources>

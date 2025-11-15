@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">        Just Imagine    </string>
+
+<!-- Interface -->
+    <!-- Menu -->
+        <string name="menu_play">       Play            </string>
+        <string name="menu_how">        How To Play     </string>
+        <string name="menu_packages">   Card Packages   </string>
+        <string name="menu_settings">   Settings        </string>
+    <!-- Packages -->
+        <string name="packages_title">  Card Packages   </string>
+    <!-- How -->
+        <string name="how_intro_sectionName">   What is this game?  </string>
+        <string name="how_intro_text">          This game was created by Sebastian Kwaśniak.\n Github: https://github.com/SebastianK1999 \n\nAll images were created using Artificial Intelligence \"Microsoft 365 Copilot\".\nPrompt used to generate all images style was \"vector graphic, clean, no outline\".</string>
+        <string name="how_how_sectionName">     How to play?        </string>
+        <string name="how_how_text">            To play this game you need a group of your friends. Each player draws random cards on the screen and arranges them in the order that fits their story. Player tells everyone a made-up story inspired by the things that the cards remind of. Don\'t limit your imagination by literal representations on the cards. \nEach next player continues the story of the previous. </string>
+        <string name="how_app_sectionName">     About app           </string>
+        <string name="how_app_text">            The app allows to select which cards can get drawn at random. Card Pacs can be turned on and off as a whole or individual cards in them. (there is a possibility this is not implemented yet)\n\nVersion: 2.xyz \nImages might be added or changed in the future.</string>
+    <!-- Settings -->
+    <!-- Game -->
+        <string name="game_recycled_draw">   Draw   </string>
+        <string name="game_recycled_notEnoughCards">    You have not enough cards in your tail. Go to \"Card packages\" in main menu and select more packages    </string>
+
+
+
+<!-- Card packages -->
+    <string name="pack_test_0">   Basic pack   </string>
+    <string name="pack_test_1">   tests one   </string>
+    <string name="pack_test_2">   tests two     </string>
+
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="20dp"
+            android:layout_marginHorizontal="125dp"
+            android:padding="20dp"
+            android:orientation="vertical"
+            android:theme="@style/Bubble"
+            android:background="@drawable/bubble"
+            android:foregroundGravity="center_horizontal"
+            android:backgroundTint="?color">
+        <!-- Introduction -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="main.how.intro.sectionName"
+                android:text="@string/how_intro_sectionName"
+                android:textSize="32dp"
+                android:textColor="?colorOnPrimary"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="main.how.intro.text"
+                android:text="@string/how_intro_text"
+                android:textSize="16dp"
+                android:textColor="?colorOnSecondary"/>
+
+        <!-- How -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:hint="main.how.how.sectionName"
+                android:text="@string/how_how_sectionName"
+                android:textSize="32dp"
+                android:textColor="?colorOnPrimary"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="main.how.how.text"
+                android:text="@string/how_how_text"
+                android:textSize="16dp"
+                android:textColor="?colorOnSecondary"/>
+
+        <!-- App -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:hint="main.how.app.sectionName"
+                android:text="@string/how_app_sectionName"
+                android:textSize="32dp"
+                android:textColor="?colorOnPrimary"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="main.how.app.text"
+                android:text="@string/how_app_text"
+                android:textSize="16dp"
+                android:textColor="?colorOnSecondary"/>
+        </LinearLayout>
+        </FrameLayout>
+    </ScrollView>
+</RelativeLayout>

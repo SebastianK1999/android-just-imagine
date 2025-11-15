@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+
+<!--    <ImageView-->
+<!--        android:theme="@style/Theme.JustImagine"-->
+<!--        android:id="@+id/menu_logo_bg"-->
+<!--        android:layout_alignParentLeft="true"-->
+<!--        android:layout_toLeftOf="@id/menu_button_layout"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:src="@drawable/ic_logo_text_background"-->
+<!--        android:padding="40dp"-->
+<!--        android:tint="?android:windowBackground"/>-->
+    <ImageView
+        android:id="@+id/menu_logo"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@id/menu_button_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:padding="40dp"
+        android:src="@drawable/logo_big"/>
+
+    <LinearLayout
+        android:id="@+id/menu_button_layout"
+        android:theme="@style/Bubble"
+        android:background="@drawable/bubble"
+        android:backgroundTint="?color"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:padding="20dp"
+        >
+        <Button
+            android:id="@+id/menu_btn_play"
+            android:background="@drawable/bubble"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="menu.play"
+            android:text="@string/menu_play"/>
+
+        <Button
+            android:id="@+id/menu_btn_packages"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bubble"
+            android:hint="menu.packages"
+            android:text="@string/menu_packages" />
+
+        <Button
+            android:id="@+id/menu_btn_how"
+            android:background="@drawable/bubble"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="menu.how"
+            android:text="@string/menu_how"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
