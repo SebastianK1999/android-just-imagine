@@ -22,7 +22,8 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:padding="40dp"
-        android:src="@drawable/logo_big"/>
+        style="@style/Bubble"
+        android:src="@drawable/r_logo_big_stroke"/>
 
     <LinearLayout
         android:id="@+id/menu_button_layout"

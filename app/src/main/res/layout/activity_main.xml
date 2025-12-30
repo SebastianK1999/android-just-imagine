@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:layout_gravity="center_vertical"
     tools:context=".MainActivity"
-    android:background="#233861">
+    android:background="@drawable/r_background_grad">
 
     <FrameLayout
         android:id="@+id/main_container"

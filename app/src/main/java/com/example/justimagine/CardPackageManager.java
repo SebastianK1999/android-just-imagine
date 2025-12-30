@@ -4,6 +4,7 @@ import android.database.Cursor;
 import android.util.Log;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 public class CardPackageManager {
@@ -291,6 +292,8 @@ public class CardPackageManager {
 
         })));
 
+        Collections.shuffle(mPackages);
+        mPackages = mPackages.subList(0, Math.min(36, mPackages.size()));
 
         for(CardPackage cardPackage : mPackages){
             Cursor cur = db.getPackages(cardPackage.mName);
